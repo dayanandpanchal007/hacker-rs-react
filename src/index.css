@@ -1,0 +1,87 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: url('./images/congruent_outline.png') repeat;
+  color: #007E00;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-bg {
+  background-color: #333333;
+  position: sticky;
+  top: 0px;
+  border-bottom: 1px solid;
+}
+
+.text-label {
+  font-size: 1.2rem;
+}
+
+.btn {
+  color: #007E00;
+  border: 1px solid #007E00;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  color: #007E00;
+  border: 1px solid #007E00;
+  font-size: 1.2rem;
+}
+
+.form-control {
+  color: #007E00;
+}
+
+.text-link {
+  color: #007E00;
+  text-decoration: underline;
+}
+
+.text-link:hover {
+  color: #007E00;
+}
+
+.navbar-brand, .nav-link {
+  color: #007E00 !important;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.container {
+  min-height: 800px;
+  border: 1px solid #007E00;
+  border-radius: 4px;
+  box-shadow: 0 0 5px 0 rgba(0, 126, 0, 0.5);
+}
+
+.table {
+  color: #007E00;
+}
+
+.grid-row {
+  color: #ffffff;
+}
+
+.grid-row:hover {
+  color: #ffffff !important;
+}
